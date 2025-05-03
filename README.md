@@ -18,3 +18,6 @@ pip install -r requirements.txt
 ## Scrapes TODO
 * https://edition.cnn.com/sitemap/article.xml
 * 
+
+## Scrapy docs
+https://docs.scrapy.org/en/latest/
