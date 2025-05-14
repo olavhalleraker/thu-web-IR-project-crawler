@@ -24,7 +24,10 @@ pip install -r requirements.txt
 ## Scrapes TODO
 * https://edition.cnn.com/sitemap/article.xml
 * https://www.bbc.com/sitemaps/https-index-com-archive.xml
-* 
+* Reuters - https://www.reuters.com
+* Al Jazeera English - https://www.aljazeera.com
+* The Washington Post - https://www.washingtonpost.com
+* USA Today -https://www.usatoday.com/robots.txt
 
 ## Scrapy docs
 https://docs.scrapy.org/en/latest/
