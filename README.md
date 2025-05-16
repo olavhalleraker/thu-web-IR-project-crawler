@@ -1,6 +1,6 @@
 # 🔍 BiasSearch Crawler - Tsinghua Web Information Retrieval Project
 
-This repository (`thu-web-IR-project-crawler`) provides the web crawling component for the **BiasSearch** project, an AI-powered news article search engine that retrieves and classifies articles **in favor**, **against**, or **neutral** with respect to the user's query. It is developed for the **Web Information Retrieval** course at **Tsinghua University**.
+This repository ([`thu-web-IR-project-crawler`](https://github.com/olavhalleraker/thu-web-IR-project-crawler)) provides the web crawling component for the **BiasSearch** project, an AI-powered news article search engine that retrieves and classifies articles **in favor**, **against**, or **neutral** with respect to the user's query. It is developed for the **Web Information Retrieval** course at **Tsinghua University**.
 
 The repository handles:
 
@@ -9,7 +9,7 @@ The repository handles:
 - **Data preparation** by storing articles in structured JSON format for the retrieval system
 - **Language filtering** (optional) to maintain English-only content
 
-The crawled articles are used by the search API, in the repository (`thu-web-IR-project-api`), which processes them for retrieval and classification
+The crawled articles are used by the search API, in the repository ([`thu-web-IR-project-api`](https://github.com/olavhalleraker/thu-web-IR-project-api)), which processes them for retrieval and classification
 so frontend web application, in the repository (in a separate repository) ultimately displays them to users based on their query
 
 
@@ -40,7 +40,7 @@ thu-web-IR-project-crawler
 ```
 ---
 
-## 🔧 Usage Instructions
+## 🔧 Setup Instructions
 
 ### 1. Install Dependencies
 
@@ -92,6 +92,10 @@ Implemented in `search.py`, utility script that:
 - `items.py`: Data structure definitions (currently empty)
 
 ---
+**Related repositories**  
+[`thu-web-IR-project-api repository`](https://github.com/olavhalleraker/thu-web-IR-project-api)  
+[`thu-web-IR-project-webapp repository`](https://github.com/olavhalleraker/thu-web-IR-project-webapp)  
+
 Olav Larsen Halleraker  
 Guillermo Rodrigo Pérez  
 Project for Web Information Retrieval — Tsinghua University 2024/2025
